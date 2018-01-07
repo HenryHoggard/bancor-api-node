@@ -1,0 +1,27 @@
+{
+  "name": "bancor-api-node",
+  "version": "0.1.0",
+  "description": "NodeJS client for the Bancor API",
+  "main": "/lib/bancor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryHoggard/bancor-api-node.git"
+  },
+  "dependencies": {
+    "node-rest-client": "*"
+  },
+  "keywords": [
+    "crypto",
+    "bancor",
+    "node",
+    "api",
+    "trading",
+    "cryptocurrency"
+  ],
+  "author": "Henry Hoggard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HenryHoggard/bancor-api-node/issues"
+  },
+  "homepage": "https://github.com/HenryHoggard/bancor-api-node#readme"
+}
