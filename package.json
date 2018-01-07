@@ -1,8 +1,8 @@
 {
   "name": "bancor-api-node",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "NodeJS client for the Bancor API",
-  "main": "/lib/bancor.js",
+  "main": "./lib/bancor.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HenryHoggard/bancor-api-node.git"
