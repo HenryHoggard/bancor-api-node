@@ -21,3 +21,7 @@ bancor.relays(0, 0, "ETH", true,true,true,true, function(data, response) {
 bancor.currencies("", 20,0, function(data, response) {
     console.log(data["data"]["currencies"]);
 })
+
+bancor.tickerBySymbol("AIX", "ETH", function(data, response) {
+    console.log(data);
+})
