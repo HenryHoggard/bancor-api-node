@@ -18,6 +18,36 @@ NodeJS client for the Bancor API.
 
 ## API
 
+### tickerBySymbol
+
+This function returns a ticker showing price (low, high, current), supply, and volume of specified currency.
+
+**Parameters**
+
+-   `currencyId` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** Input desired currency.
+-   `fromCurrencyId` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The price of first currency is displayed in this currency.
+-   `callback` **callback** Callback function.
+
+**Examples**
+
+```javascript
+bancor.ticker("OMG", "GNO", function(data, response) {
+     console.log(data);
+  })
+ { name: 'OmiseGo',
+   symbol: 'OMG',
+   code: 'OMG',
+   decimals: 18,
+   price24hHigh: 0,
+   price24hLow: 0,
+   price: 0.05595976535725013,
+   price24h: 0.044364364108873615,
+   totalSupply: '140245398245132780789239631',
+   volume24h: '119202620641242380323' } }
+```
+
+Returns **[object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)** JSON object.
+
 ### ticker
 
 This function returns a ticker showing price (low, high, current), supply, and volume of specified currency.
