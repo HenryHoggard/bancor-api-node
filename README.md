@@ -31,7 +31,7 @@ This function returns a ticker showing price (low, high, current), supply, and v
 **Examples**
 
 ```javascript
-bancor.ticker("OMG", "GNO", function(data, response) {
+bancor.tickerBySymbol("OMG", "GNO", function(data, response) {
      console.log(data);
   })
  { name: 'OmiseGo',
